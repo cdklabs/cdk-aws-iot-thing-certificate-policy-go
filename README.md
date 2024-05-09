@@ -1,11 +1,6 @@
-## My Project
+## Go Bindings for cdk-aws-iot-thing-certificate-policy
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This repository included Go bindings for the `@cdklabs/cdk-aws-iot-thing-certificate-policy` construct.
 
 ## Security
 
@@ -14,4 +9,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This project is licensed under the Apache-2.0 License.
-
