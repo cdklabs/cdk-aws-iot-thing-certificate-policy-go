@@ -70,7 +70,6 @@ import "github.com/cdklabs/cdk-aws-iot-thing-certificate-policy-go/cdklabscdkaws
 ```go
 import "github.com/aws/aws-cdk-go/awscdk"
 import "github.com/cdklabs/cdk-aws-iot-thing-certificate-policy-go/cdklabscdkawsiotthingcertificatepolicy"
-
 /**
  * A minimum IoT Policy template using substitution variables for actual
  * policy to be deployed for "region", "account", and "thingname". Allows
