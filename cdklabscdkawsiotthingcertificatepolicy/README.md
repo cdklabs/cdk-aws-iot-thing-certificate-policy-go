@@ -133,6 +133,9 @@ fooThing := cdklabscdkawsiotthingcertificatepolicy.NewIotThingCertificatePolicy(
 			Value: cdk.Fn_*Ref(jsii.String("AWS::AccountId")),
 		},
 	},
+	// Optional: if the X.509 Subject is not provided, a set of default values will be used and the
+	// common name (CN) will be set from the thingName parameter.
+	X509Subject: jsii.String("CN=foo-thing,OU=Information Security,O=ACME Inc.,L=Detroit,ST=Michigan,C=US"),
 })
 
 // The AWS IoT Thing Arn as a stack output

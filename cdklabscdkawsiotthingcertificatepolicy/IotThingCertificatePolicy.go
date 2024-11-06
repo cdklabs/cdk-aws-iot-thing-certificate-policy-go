@@ -16,7 +16,7 @@ import (
 //
 // Use this construct to create and delete a thing, certificate (principal), and IoT policy for
 // testing or other singular uses. **Note:** Destroying this stack will fully detach and delete
-// all created IoT resources.
+// all created IoT resources including the AWS IoT thing, certificate, and policy.
 // Experimental.
 type IotThingCertificatePolicy interface {
 	constructs.Construct

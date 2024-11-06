@@ -2,6 +2,8 @@ package cdklabscdkawsiotthingcertificatepolicy
 
 
 // Policy substitutions provided as key-value pairs.
+//
+// Done this way to be JSII compatible.
 // Experimental.
 type PolicyMapping struct {
 	// Name of substitution variable, e.g., `region` or `account`.
